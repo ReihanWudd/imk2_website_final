@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1000px
+}
+
+
+.navbar{
+    top: 0 !important;
+    width: 100%;
+    z-index: 5;
+    /* margin: top 10px; */
+    background-color: #5c2f27d7 ;
+    position:fixed !important;
+
+}
+
+.collapse a{
+    color: #ffff;
+}
+
+.container h3 {
+    color: red;
+}
+.home_main_button{
+    margin-top:-90px;
+}
+
+.home_main_button > div {
+    background-color: #DBA75B;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding:10px;
+    
+    flex-direction: row;
+}
+
+.parallax_text {
+    margin-left: 50px;
+    padding-top: 120px;
+    /* margin-top:70px; */
+}
+.parallax_text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.login_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+.regis_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+
+.login_bar span,.regis_bar span{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.login_bar form,.regis_bar form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+.header_title {
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+    
+}
+
+.header_item {
+    margin-right: 10px;
+}
+
+.galer_hider {
+  background-image: url("img/galer.png");
+    width: 100%;
+    min-height: 600px; 
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galer_text {
+  width: 40%;
+  padding-top:200px;
+  padding-left: 30px;
+}
+
+.galer_cont_01 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.galer_cont_01 h2 {
+    margin-top:70px;
+    padding-left: 10px;
+    color: #3A170D;
+}
+
+.galer_cont_01 img {
+    width: 200px;
+}
+
+.gale02_text {
+    width:40%;
+    margin-top: 100px;
+}
+
+.galer_cont_02 {
+    margin-top:100px;
+    display:flex;
+}
+
+.galer02_img {
+    display:flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 5px;
+}
+
+.galer02_img img {
+    margin: 6px;
+}
+
+.img_galer {
+    display:flex;
+    flex-direction:column;
+}
