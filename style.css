@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("img/parlx.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    top: 0 !important;
+    width: 100%;
+    z-index: 5;
+    /* margin: top 10px; */
+    background-color: #5c2f27ae ;
+    position:fixed !important;
+
+}
+
+.collapse a{
+    color: #ffff;
+}
+
+.container h3 {
+    color: red;
+}
+.home_main_button{
+    margin-top:-90px;
+}
+
+.home_main_button > div {
+    background-color: #DBA75B;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding:10px;
+    
+    flex-direction: row;
+}
+
+.parallax_text {
+    margin-left: 50px;
+    padding-top: 120px;
+    /* margin-top:70px; */
+}
+.parallax_text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.login_bar,.login_seller_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+.regis_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+
+.option_profile{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    /* justify-content: center; */
+    z-index: 6;
+    text-align: right;
+    flex-direction: column;
+}
+/* .chose_bg {
+    background-color:rgb(200, 200, 200);
+    align-items:right;
+    width:80%;
+} */
+
+.option_profile a {
+    margin-top: 40px;
+    margin-right: 80px;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 83%;
+    background-color: aliceblue;
+    color: rgb(41, 41, 41);
+}
+
+.login_bar span,.regis_bar span,.login_seller_bar span{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.login_bar form,.regis_bar form,.login_seller_bar form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+.education_button {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    margin: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.community_page {
+    margin-top: 12%;
+    
+}
+
+.community_item h3{
+    background-color: #DBA75B;
+    color:white;
+   
+}
+.community_item_title {
+    background-color: #DBA75B;
+    padding: 10px;
+    padding-left: 20px;
+    width:16%;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top:-20px;
+    position:absolute;
+    
+}
+
+.com_img{
+    background-image: url("img/Rectangle 82.png");
+    min-height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+.com_img2{
+    background-image: url("img/sapi.png");
+    min-height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.com_btn {
+    margin-top: 10px;
+    text-align:right;
+    margin-right:30px;
+}
+
