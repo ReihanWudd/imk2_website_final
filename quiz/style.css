@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1000px
+}
+
+
+.navbar{
+
+    width: 100%;
+    z-index: 5;
+    /* margin: top 10px; */
+    background-color: #5c2f27d7 ;
+
+
+}
+
+.collapse a{
+    color: #ffff;
+}
+
+.container h3 {
+    color: red;
+}
+.home_main_button{
+    margin-top:-90px;
+}
+
+.home_main_button > div {
+    background-color: #DBA75B;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding:10px;
+    
+    flex-direction: row;
+}
+
+.parallax_text {
+    margin-left: 50px;
+    padding-top: 120px;
+    /* margin-top:70px; */
+}
+.parallax_text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.login_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+.regis_bar {
+    width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color:rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+
+}
+
+.login_bar span,.regis_bar span{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.login_bar form,.regis_bar form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+.header_title {
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+    
+}
+
+.header_item {
+    margin-right: 10px;
+}
+
+.quiz_button {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.verti01 {
+  border-left: 1px solid rgba(73, 73, 73, 0.665);
+  height: 1000px;
+}
+
+
+.quiz_page {
+  display: flex;
+}
+
+.quiz_quest_item {
+  font-size:22px;
+  background-color:rgba(236, 236, 236, 0.827);
+  border-radius:7px;
+  padding:5px;
+  margin-bottom:25px;
+}
